@@ -1,0 +1,53 @@
+.main-wrapper{
+    width: 900px;
+    margin: 20px auto;
+}
+.navbar ul{
+    padding: 0;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(189, 189, 189);
+    cursor: pointer;
+}
+.navbar ul .seen{
+    color: rgb(6, 172, 48);
+    border-bottom: 2px  solid rgb(6, 172, 48);
+}
+.navbar ul .seen a{
+    color: rgb(6, 172, 48);
+}
+.navbar ul .active-step{
+    color: rgb(5, 77, 119);
+    border-bottom: 2px  solid rgb(5, 77, 119);
+}
+.navbar ul .active-step a{
+    color: rgb(5, 77, 119);
+}
+
+.navbar ul li a{
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+.buttonWrapper{
+    background: rgb(226, 226, 226);
+    padding: 10px 20px;
+    text-align: right;
+}
+.buttonWrapper .button-Gorup{
+    display: inline-block;
+}
+.buttonWrapper .button-Gorup button{
+    padding: 10px 20px;
+}
+.contentWrapper{
+    padding: 10px 20px;
+}
+.contentWrapper div{
+    display: none;
+}
+.contentWrapper .active-content{
+    display: block;
+}
